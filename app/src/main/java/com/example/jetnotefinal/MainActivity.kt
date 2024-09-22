@@ -13,7 +13,9 @@ import androidx.lifecycle.viewmodel.compose.viewModel
 import com.example.jetnotefinal.screen.NoteScreen
 import com.example.jetnotefinal.screen.NoteViewModel
 import com.example.jetnotefinal.ui.theme.JetNoteFinalTheme
+import dagger.hilt.android.AndroidEntryPoint
 
+@AndroidEntryPoint
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
